@@ -1,4 +1,4 @@
-MongoLogger 0.1
+PyMongoLogger 0.1
 ===============
 
 Author: Victor Campos
@@ -13,12 +13,12 @@ Usage
 -----
 
 ### Installation
-Import mongologger project folder to your Django code folder
+Import pymongologger project folder to your Django code folder
 
 ### Usage
 * Instantiating
 
-		from mongologger import mongologtools
+		from pymongologger import mongologtools
 		mylogger = mongologtools.MongoLogger(db='click_logging', collection='log')
 
 * Logging
