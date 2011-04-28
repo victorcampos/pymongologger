@@ -17,14 +17,14 @@ Import mongologger project folder to your Django code folder
 
 ### Usage
 * Instantiating
-	from mongologger import mongologtools
-	mylogger = mongologtools.MongoLogger(db='click_logging', collection='log')
+		from mongologger import mongologtools
+		mylogger = mongologtools.MongoLogger(db='click_logging', collection='log')
 
 * Logging	
-	mylogger.log(ad_id=YOUR_AD_ID)
+		mylogger.log(ad_id=YOUR_AD_ID)
 	
 * Fetching data
-	mylogger.fetch(ad_id=YOUR_AD_ID, start_date=DATE_OBJECT, end_date=DATE_OBJECT, [optional]total=True)
+		mylogger.fetch(ad_id=YOUR_AD_ID, start_date=DATE_OBJECT, end_date=DATE_OBJECT, [optional]total=True)
 	
 	
 	
