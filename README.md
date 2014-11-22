@@ -7,7 +7,7 @@ Goal
 ----
 
 This project is intended to be a simple click logger for ads as an app for
-Django. It's API should be very simple and straightforward to understand.
+Django. Its API should be very simple and straightforward to understand.
 
 Usage
 -----
